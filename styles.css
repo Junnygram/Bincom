@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.info {
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.slide {
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+#mail {
+  text-decoration: underline;
+}
+.port {
+  color: blue;
+  text-decoration: underline;
+}
+section {
+  margin: 0px 40px;
+}
+.education {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  height: 22px;
+}
+.experience {
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  height: 22px;
+}
+.school {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+#dept {
+  margin-top: -30px;
+}
+.moreinfo {
+  font-size: 20px;
+}
+#newinfo {
+  margin-top: 5px;
+}
+.hide {
+  visibility: hidden;
+}
+#foodid {
+  margin-top: -60px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.imagesection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 10px;
+  }
+  .info {
+    font-weight: 100;
+    font-size: xx-small;
+    margin-top: -10px;
+  }
+  .education {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .experience {
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .school {
+    font-size: 10px;
+    letter-spacing: -0.5px;
+  }
+  #dept {
+    margin-top: -20px;
+  }
+  .moreinfo {
+    font-size: 12px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .imagesection {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* .image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } */
+}
